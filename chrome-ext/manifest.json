@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Extension",
+    "description": "This is for test purpose",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/hello.png"
+    },
+    "permissions": [
+        "sidePanel"
+    ],
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    }
+}
