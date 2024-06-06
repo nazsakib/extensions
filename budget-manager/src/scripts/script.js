@@ -1,5 +1,5 @@
 $(function () {
-    $(`#btn`).click(function () {
+    $("#btn").click(function () {
         chrome.storage.sync.get("total", function (budget) {
             var newTotal = 0;
             if (budget.total) {
