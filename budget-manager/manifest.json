@@ -6,7 +6,7 @@
     "permissions": [
         "storage",
         "notifications",
-        "contextMenu"
+        "contextMenus"
     ],
     "icons": {
         "128": "images/128.png",
@@ -17,9 +17,6 @@
     },
     "options_page": "options.html",
     "background": {
-        "scripts": [
-            "eventpage.js"
-        ],
-        "persistent": false
+        "service_worker": "./src/scripts/eventpage.js"
     }
 }
