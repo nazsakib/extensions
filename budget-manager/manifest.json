@@ -3,9 +3,14 @@
     "name": "Budget Manager",
     "version": "1.0.0",
     "description": "Effortlessly track expenses, set budgets, and monitor spending directly from your browser. Stay on top of your finances with real-time updates and customizable alerts. Perfect for managing personal and family budgets.",
-    "icons": {
-        "128": "",
-        "64": "",
-        "16": ""
-    }
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "images/128.png",
+            "64": "images/64.png"
+        }
+    },
+    "permissions": [
+        "storage"
+    ]
 }
