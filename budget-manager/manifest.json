@@ -5,7 +5,8 @@
     "description": "Effortlessly track expenses, set budgets, and monitor spending directly from your browser. Stay on top of your finances with real-time updates and customizable alerts. Perfect for managing personal and family budgets.",
     "permissions": [
         "storage",
-        "notifications"
+        "notifications",
+        "contextMenu"
     ],
     "icons": {
         "128": "images/128.png",
@@ -14,5 +15,11 @@
     "action": {
         "default_popup": "popup.html"
     },
-    "options_page": "options.html"
+    "options_page": "options.html",
+    "background": {
+        "scripts": [
+            "eventpage.js"
+        ],
+        "persistent": false
+    }
 }
