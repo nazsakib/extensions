@@ -1,7 +1,8 @@
 $(function () {
     //popup scripts
-    chrome.storage.sync.get("total", function (budget) {
+    chrome.storage.sync.get(["total", "limit"], function (budget) {
         $("#total").text(budget.total);
+        $("#limit").text(budget.limit);
     });
 
     $("#btn").click(function () {
