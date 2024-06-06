@@ -1,4 +1,5 @@
 $(function () {
+    //popup scripts
     chrome.storage.sync.get("total", function (budget) {
         $("#total").text(budget.total);
     });
