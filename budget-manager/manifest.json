@@ -4,7 +4,8 @@
     "version": "1.0.0",
     "description": "Effortlessly track expenses, set budgets, and monitor spending directly from your browser. Stay on top of your finances with real-time updates and customizable alerts. Perfect for managing personal and family budgets.",
     "permissions": [
-        "storage"
+        "storage",
+        "notifications"
     ],
     "icons": {
         "128": "images/128.png",
