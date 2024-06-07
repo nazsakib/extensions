@@ -9,6 +9,7 @@
     },
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "./images/64.png"
+        "default_icon": "./images/64.png",
+        "default_title": "PageFontStyle"
     }
 }
