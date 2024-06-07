@@ -3,6 +3,10 @@
     "name": "Page Font Style",
     "version": "1.0.0",
     "description": "This is a page action extension which will change the font style of a page.",
+    "icons": {
+        "128": "./images/128.png",
+        "64": "./images/64.png"
+    },
     "action": {
         "default_popup": "popup.html",
         "default_icon": "./images/64.png"
