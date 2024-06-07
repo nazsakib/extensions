@@ -42,3 +42,11 @@ chrome.contextMenus.onClicked.addListener(function (clickData) {
         }
     }
 });
+
+// badge showing function
+
+chrome.storage.onChanged.addListener(function (changes, storageName) {
+    chrome.action.setBadgeText({
+        text: changes.total.newValue.toString(),
+    });
+});
