@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Page Font Style",
+    "version": "1.0.0",
+    "description": "This is a page action extension which will change the font style of a page.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "./images/64.png"
+    }
+}
